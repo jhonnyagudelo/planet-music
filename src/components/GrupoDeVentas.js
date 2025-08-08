@@ -85,7 +85,7 @@ const countries = [
   { code: "CH", name: "CH", flag: suizaFlag },
   { code: "TW", name: "TW", flag: taiwanFlag },
   { code: "VN", name: "VN", flag: vietnamFlag },
-  { code: "CO", name: "CO", flag: colombiaFlag, isCurrent: true }
+  { code: "CO", name: "CO", flag: colombiaFlag, isCurrent: true },
 ];
 
 const GrupoDeVentas = ({ isOpen, onClose }) => {
@@ -94,7 +94,6 @@ const GrupoDeVentas = ({ isOpen, onClose }) => {
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
       <div className="relative bg-gray-800 rounded-lg p-3 w-[500px] max-h-[700px] overflow-auto shadow-lg">
-        
         {/* Botón de cierre separado */}
         <button
           onClick={onClose}
@@ -146,3 +145,4 @@ const GrupoDeVentas = ({ isOpen, onClose }) => {
 };
 
 export default GrupoDeVentas;
+
