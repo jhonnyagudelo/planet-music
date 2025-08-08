@@ -1,6 +1,3 @@
-import React, { useState } from "react";
-import SecondHomeSection from "../components/SecondHomeSection";
-import GameContainer from "../components/GameContainer";
 import HomePrincipal from "./HomePrincipal";
 
 const Home = () => {
