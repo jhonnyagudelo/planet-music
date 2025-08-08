@@ -39,17 +39,15 @@ const HomePrincipal = () => {
           </p>
         </div>
 
-        <a
-          href="#"
+        <div
+          className="p-3 flex justify-center cursor-pointer"
           onClick={(e) => {
             e.preventDefault(); // evita que recargue o navegue
             setSalesModalOpen(true); // abre el modal
           }}
         >
-          <div className="p-3 flex justify-center cursor-pointer">
-            <img src={contribuye} alt="imagen-contribuye" />
-          </div>
-        </a>
+          <img src={contribuye} alt="imagen-contribuye" />
+        </div>
 
         <article>
           <p className="text-center text-lg md:text-2xl">
