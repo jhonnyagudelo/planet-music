@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 import cabezaVolteada from "../assets/menu/nuevo-fondo.gif";
 import play from "../assets/menu/play.png";
