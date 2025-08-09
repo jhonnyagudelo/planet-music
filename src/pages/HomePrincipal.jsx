@@ -28,7 +28,7 @@ const HomePrincipal = () => {
         </div>
       </section>
 
-      <section className="pb-28">
+      <section>
         <div>
           <img src={monster} alt="imagen-monster-energy" />
         </div>
@@ -57,7 +57,7 @@ const HomePrincipal = () => {
 
         <article>
           <p className="text-center text-lg md:text-2xl">
-            q.e.p.d. Alberto Lázaro del valle spa 🤍
+            q.e.p.d. Alberto Lázaro del valle 🤍
           </p>
           <p className="text-center text-lg md:text-2xl">
             © 2023-2025 PLANET MUSIC ENTERTAINMENT. Todos los derechos
