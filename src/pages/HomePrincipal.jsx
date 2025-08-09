@@ -32,12 +32,18 @@ const HomePrincipal = () => {
         <div>
           <img src={monster} alt="imagen-monster-energy" />
         </div>
-        <div className="flex justify-center mt-4">
-          <p className="text-2xl md:text-4xl font-bold text-center text-blue-900">
-            No tenemos redes sociales; solo usamos WhatsApp para comunicarnos.
-            Si deseas contactarnos haga click aquí
-          </p>
-        </div>
+        <a
+          href="https://wa.me/573246864647"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="flex justify-center mt-4">
+            <p className="text-2xl md:text-4xl font-bold text-center text-blue-900 underline decoration-2 underline-offset-4 ">
+              No tenemos redes sociales; solo usamos WhatsApp para comunicarnos.
+              Si deseas contactarnos haga click aquí
+            </p>
+          </div>
+        </a>
 
         <div
           className="p-3 flex justify-center cursor-pointer"
