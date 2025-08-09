@@ -5,6 +5,8 @@ import play from "../assets/menu/play.png";
 import monster from "../assets/menu/monster.png";
 import contribuye from "../assets/menu/contribuye.gif";
 import { Nequi } from "../components/Nequi";
+import simbolo from "../assets/menu/simbolo.jpeg"; // Asegúrate de que la ruta sea correcta
+import simboloC from "../assets/menu/simbolo-c.jpeg"; // Asegúrate de que la ruta sea correcta
 
 const HomePrincipal = () => {
   const [salesModalOpen, setSalesModalOpen] = useState(false); // Estado para la ventana emergente
@@ -28,7 +30,7 @@ const HomePrincipal = () => {
         </div>
       </section>
 
-      <section className="">
+      <section className=" p-28">
         <div>
           <img src={monster} alt="imagen-monster-energy" />
         </div>
@@ -56,12 +58,28 @@ const HomePrincipal = () => {
         </div>
 
         <article>
-          <p className="text-center text-lg md:text-2xl">
+          <p className="text-center text-lg md:text-2xl flex items-center justify-center gap-2">
             q.e.p.d. Alberto Lázaro del valle
+            <span>
+              <img
+                src={simbolo}
+                alt="símbolo de q.e.p.d."
+                className="inline-block w-[15px]"
+              />
+            </span>
           </p>
-          <p className="text-center text-lg md:text-2xl">
-            © 2023-2025 PLANET MUSIC ENTERTAINMENT. Todos los derechos
-            reservados. "Tenga paciencia, mañana será un día mejor"
+          <p className="text-center text-lg md:text-2xl flex items-center justify-center gap-2">
+            <span>
+              <img
+                src={simboloC}
+                alt="símbolo de copyright"
+                className="inline-block w-[15px]"
+              />
+            </span>
+            <span>
+              2023-2025 PLANET MUSIC ENTERTAINMENT. Todos los derechos
+              reservados. "Tenga paciencia, mañana será un día mejor"
+            </span>
           </p>
         </article>
       </section>
