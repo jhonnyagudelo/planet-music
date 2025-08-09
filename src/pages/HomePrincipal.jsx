@@ -33,9 +33,9 @@ const HomePrincipal = () => {
           <img src={monster} alt="imagen-monster-energy" />
         </div>
         <div className="flex justify-center mt-4">
-          <p className="text-2xl md:text-4xl font-bold text-center">
+          <p className="text-2xl md:text-4xl font-bold text-center text-blue-900">
             No tenemos redes sociales; solo usamos WhatsApp para comunicarnos.
-            Si deseas contactarnos haga click aquì
+            Si deseas contactarnos haga click aquí
           </p>
         </div>
 
